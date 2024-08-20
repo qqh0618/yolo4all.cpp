@@ -10,7 +10,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # !OpenCV
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (YOLO4ALL "YOLO4ALL.cpp" "YOLO4ALL.h")
+add_executable (YOLO4ALL "main.cpp" "inference.h" "inference.cpp")
 
 # TODO: 如有需要，请添加测试并安装目标。
 
